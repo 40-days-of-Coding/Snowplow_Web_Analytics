@@ -11,3 +11,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-XXXXXX');</script>
 <!-- End Google Tag Manager -->
 ```
+
+
+### Next, add this code immediately after the opening <body> element on every page of your website. Replace GTM-XXXXXX with your container ID:
+
+```
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+```
